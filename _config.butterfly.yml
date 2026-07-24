@@ -11,7 +11,7 @@
 
 nav:
   # Navigation bar logo image
-  logo:
+  logo: /img/favicon.png
   display_title: true
   display_post_title: true
   # Whether to fix navigation bar
@@ -168,7 +168,9 @@ subtitle:
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
-    知道的越多，不知道的越多
+    - 写代码，也写给未来的自己
+    - 在问题、阅读和生活之间慢慢生长
+    - 知道的越多，不知道的越多
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
 # 2: Cover on the right, info on the left
@@ -287,15 +289,15 @@ aside:
     category: true
   card_author:
     enable: true
-    description: 知道的越多，不知道的越多
+    description: 在代码、阅读与生活之间慢慢生长
     button:
       enable: true
       icon: fab fa-github
       text: GitHub
       link: https://github.com/Fieem
   card_announcement:
-    enable: false
-    content: This is my Blog
+    enable: true
+    content: 这里记录技术、思考，以及那些值得留下来的瞬间。
   card_recent_post:
     enable: true
     # If set 0 will show all

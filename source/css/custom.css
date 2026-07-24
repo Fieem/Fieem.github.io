@@ -40,12 +40,33 @@ body {
 
 #site-info #site-title {
   letter-spacing: 0.08em;
+  font-size: clamp(2.7rem, 7vw, 4.6rem);
 }
 
 #site-info #site-subtitle {
   margin-top: 0.9rem;
   font-weight: 500;
   letter-spacing: 0.04em;
+}
+
+#page-header.full_page #site-info {
+  padding: 0 1.5rem;
+}
+
+#page-header.full_page #site-title::before {
+  content: "自予风和的数字花园";
+  display: inline-flex;
+  margin-bottom: 1rem;
+  padding: 0.35rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  background: rgba(255, 252, 246, 0.16);
+  color: rgba(255, 250, 244, 0.95);
+  font-size: 0.88rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  backdrop-filter: blur(10px);
 }
 
 #recent-posts > .recent-post-item,
@@ -119,6 +140,28 @@ div#archive {
 #article-container a {
   text-decoration-thickness: 0.08em;
   text-underline-offset: 0.2em;
+}
+
+#site_social_icons {
+  margin-top: 1.3rem;
+}
+
+#site_social_icons .social-icon {
+  margin: 0 0.35rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 999px;
+  background: rgba(255, 251, 245, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  box-shadow: 0 12px 24px rgba(25, 35, 27, 0.08);
+  backdrop-filter: blur(10px);
+}
+
+#aside-content .card-widget.card-announcement {
+  background: linear-gradient(180deg, rgba(244, 248, 242, 0.92), rgba(250, 247, 240, 0.88));
+}
+
+#aside-content .card-widget.card-announcement .item-headline span {
+  letter-spacing: 0.06em;
 }
 
 blockquote {
